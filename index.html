@@ -58,6 +58,87 @@
           </ul>
         </address>
       </div>
+
+      <!-- ========== MOBILE MENU ========== -->
+      <div class="icon-menu container">
+        <a class="logo" href="./index.html"
+          >Web<span class="logo-header">Studio</span>
+        </a>
+        <button class="mobile-menu" type="button">
+          <svg class="icon-mobile-menu" width="24" height="24">
+            <use href="./images/icons.svg#mobile-menu"></use>
+          </svg>
+        </button>
+      </div>
+
+      <div class="page-menu is-open-menu">
+        <div class="modal-menu container">
+          <button class="btn-close-menu" type="button">
+            <svg class="icon-close-menu" width="8" height="8">
+              <use href="./images/icons.svg#close"></use>
+            </svg>
+          </button>
+
+          <ul class="menu-mobile">
+            <li class="menu-item-mobile">
+              <a class="menu-link-mobile current" href="./index.html">Studio</a>
+            </li>
+            <li class="menu-item-mobile">
+              <a class="menu-link-mobile" href="">Portfolio</a>
+            </li>
+            <li class="menu-item-mobile">
+              <a class="menu-link-mobile" href="">Contacts</a>
+            </li>
+          </ul>
+
+          <ul class="contacts-list-mobile">
+            <li class="contacts-item-mobile">
+              <a class="contacts-link-mobile" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="contacts-item-mobile">
+              <a class="contacts-link-mobile" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+
+          <ul class="social-list-mobile">
+            <li class="social-item-mobile">
+              <a href="" class="icon-link-mobile">
+                <svg class="social-link-icon" width="24" height="24">
+                  <use href="./images/icons.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="social-item-mobile">
+              <a href="" class="icon-link-mobile">
+                <svg class="social-link-icon" width="24" height="24">
+                  <use href="./images/icons.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="social-item-mobile">
+              <a href="" class="icon-link-mobile">
+                <svg class="social-link-icon" width="24" height="24">
+                  <use href="./images/icons.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="social-item-mobile">
+              <a href="" class="icon-link-mobile">
+                <svg class="social-link-icon" width="24" height="24">
+                  <use href="./images/icons.svg#linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </header>
 
     <!-- ========= MAIN ========== -->
@@ -71,7 +152,7 @@
       </section>
 
       <!-- ========= LIST OUR BENEFITS ========== -->
-      <section class="benefits page-benefits">
+      <section class="benefits">
         <div class="container-benefits container">
           <h2 class="visually-hidden">Our benefits</h2>
           <ul class="benefits-list">
@@ -134,7 +215,34 @@
           <ul class="list-team">
             <li class="team-member">
               <img
-                src="./images/team/team-member1.jpg"
+                class="mobile"
+                srcset="
+                  ./images/mobile/team/team-member1.jpg   1x,
+                  ./images/mobile/team/team-member1@2.jpg 2x
+                "
+                src="./images/mobile/team/team-member1.jpg"
+                alt="team member"
+                width="264"
+                height="260"
+              />
+              <img
+                class="tablet"
+                srcset="
+                  ./images/tablet/team/team-member1.jpg   1x,
+                  ./images/tablet/team/team-member1@2.jpg 2x
+                "
+                src="./images/tablet/team/team-member1.jpg"
+                alt="team member"
+                width="264"
+                height="260"
+              />
+              <img
+                class="desktop"
+                srcset="
+                  ./images/desktop/team/team-member1.jpg   1x,
+                  ./images/desktop/team/team-member1@2.jpg 2x
+                "
+                src="./images/desktop/team/team-member1.jpg"
                 alt="team member"
                 width="264"
                 height="260"
@@ -179,7 +287,34 @@
             </li>
             <li class="team-member">
               <img
-                src="./images/team/team-member2.jpg"
+                class="mobile"
+                srcset="
+                  ./images/mobile/team/team-member2.jpg   1x,
+                  ./images/mobile/team/team-member2@2.jpg 2x
+                "
+                src="./images/mobile/team/team-member2.jpg"
+                alt="team member"
+                width="264"
+                height="260"
+              />
+              <img
+                class="tablet"
+                srcset="
+                  ./images/tablet/team/team-member2.jpg   1x,
+                  ./images/tablet/team/team-member2@2.jpg 2x
+                "
+                src="./images/tablet/team/team-member2.jpg"
+                alt="team member"
+                width="264"
+                height="260"
+              />
+              <img
+                class="desktop"
+                srcset="
+                  ./images/desktop/team/team-member2.jpg   1x,
+                  ./images/desktop/team/team-member2@2.jpg 2x
+                "
+                src="./images/desktop/team/team-member2.jpg"
                 alt="team member"
                 width="264"
                 height="260"
@@ -224,7 +359,34 @@
             </li>
             <li class="team-member">
               <img
-                src="./images/team/team-member3.jpg"
+                class="mobile"
+                srcset="
+                  ./images/mobile/team/team-member3.jpg   1x,
+                  ./images/mobile/team/team-member3@2.jpg 2x
+                "
+                src="./images/mobile/team/team-member3.jpg"
+                alt="team member"
+                width="264"
+                height="260"
+              />
+              <img
+                class="tablet"
+                srcset="
+                  ./images/tablet/team/team-member3.jpg   1x,
+                  ./images/tablet/team/team-member3@2.jpg 2x
+                "
+                src="./images/tablet/team/team-member3.jpg"
+                alt="team member"
+                width="264"
+                height="260"
+              />
+              <img
+                class="desktop"
+                srcset="
+                  ./images/desktop/team/team-member3.jpg   1x,
+                  ./images/desktop/team/team-member3@2.jpg 2x
+                "
+                src="./images/desktop/team/team-member3.jpg"
                 alt="team member"
                 width="264"
                 height="260"
@@ -269,7 +431,34 @@
             </li>
             <li class="team-member">
               <img
-                src="./images/team/team-member4.jpg"
+                class="mobile"
+                srcset="
+                  ./images/mobile/team/team-member4.jpg   1x,
+                  ./images/mobile/team/team-member4@2.jpg 2x
+                "
+                src="./images/mobile/team/team-member4.jpg"
+                alt="team member"
+                width="264"
+                height="260"
+              />
+              <img
+                class="tablet"
+                srcset="
+                  ./images/tablet/team/team-member4.jpg   1x,
+                  ./images/tablet/team/team-member4@2.jpg 2x
+                "
+                src="./images/tablet/team/team-member4.jpg"
+                alt="team member"
+                width="264"
+                height="260"
+              />
+              <img
+                class="desktop"
+                srcset="
+                  ./images/desktop/team/team-member4.jpg   1x,
+                  ./images/desktop/team/team-member4@2.jpg 2x
+                "
+                src="./images/desktop/team/team-member4.jpg"
                 alt="team member"
                 width="264"
                 height="260"
@@ -324,7 +513,34 @@
             <li class="item-portfolio item-portfolio-hover">
               <div class="item-portfolio-two">
                 <img
-                  src="./images/portfolio/row11.jpg"
+                  class="mobile"
+                  srcset="
+                    ./images/mobile/portfolio/row11.jpg   1x,
+                    ./images/mobile/portfolio/row11@2.jpg 2x
+                  "
+                  src="./images/mobile/portfolio/row11.jpg"
+                  alt="team member"
+                  width="288"
+                  height="280"
+                />
+                <img
+                  class="tablet"
+                  srcset="
+                    ./images/tablet/portfolio/row11.jpg   1x,
+                    ./images/tablet/portfolio/row11@2.jpg 2x
+                  "
+                  src="./images/tablet/portfolio/row11.jpg"
+                  alt="team member"
+                  width="356"
+                  height="300"
+                />
+                <img
+                  class="desktop"
+                  srcset="
+                    ./images/desktop/portfolio/row11.jpg   1x,
+                    ./images/desktop/portfolio/row11@2.jpg 2x
+                  "
+                  src="./images/desktop/portfolio/row11.jpg"
                   alt="Banking App"
                   width="360"
                   height="300"
@@ -344,8 +560,35 @@
             <li class="item-portfolio item-portfolio-hover">
               <div class="item-portfolio-two">
                 <img
-                  src="./images/portfolio/row12.jpg"
-                  alt="Cashless Payment"
+                  class="mobile"
+                  srcset="
+                    ./images/mobile/portfolio/row12.jpg   1x,
+                    ./images/mobile/portfolio/row12@2.jpg 2x
+                  "
+                  src="./images/mobile/portfolio/row12.jpg"
+                  alt="team member"
+                  width="288"
+                  height="280"
+                />
+                <img
+                  class="tablet"
+                  srcset="
+                    ./images/tablet/portfolio/row12.jpg   1x,
+                    ./images/tablet/portfolio/row12@2.jpg 2x
+                  "
+                  src="./images/tablet/portfolio/row12.jpg"
+                  alt="team member"
+                  width="356"
+                  height="300"
+                />
+                <img
+                  class="desktop"
+                  srcset="
+                    ./images/desktop/portfolio/row12.jpg   1x,
+                    ./images/desktop/portfolio/row12@2.jpg 2x
+                  "
+                  src="./images/desktop/portfolio/row12.jpg"
+                  alt="Banking App"
                   width="360"
                   height="300"
                 />
@@ -364,8 +607,35 @@
             <li class="item-portfolio item-portfolio-hover">
               <div class="item-portfolio-two">
                 <img
-                  src="./images/portfolio/row13.jpg"
-                  alt="Meditation App"
+                  class="mobile"
+                  srcset="
+                    ./images/mobile/portfolio/row13.jpg   1x,
+                    ./images/mobile/portfolio/row13@2.jpg 2x
+                  "
+                  src="./images/mobile/portfolio/row13.jpg"
+                  alt="team member"
+                  width="288"
+                  height="280"
+                />
+                <img
+                  class="tablet"
+                  srcset="
+                    ./images/tablet/portfolio/row13.jpg   1x,
+                    ./images/tablet/portfolio/row13@2.jpg 2x
+                  "
+                  src="./images/tablet/portfolio/row13.jpg"
+                  alt="team member"
+                  width="356"
+                  height="300"
+                />
+                <img
+                  class="desktop"
+                  srcset="
+                    ./images/desktop/portfolio/row13.jpg   1x,
+                    ./images/desktop/portfolio/row13@2.jpg 2x
+                  "
+                  src="./images/desktop/portfolio/row13.jpg"
+                  alt="Banking App"
                   width="360"
                   height="300"
                 />
@@ -384,8 +654,35 @@
             <li class="item-portfolio item-portfolio-hover">
               <div class="item-portfolio-two">
                 <img
-                  src="./images/portfolio/row21.jpg"
-                  alt="Taxi Service"
+                  class="mobile"
+                  srcset="
+                    ./images/mobile/portfolio/row21.jpg   1x,
+                    ./images/mobile/portfolio/row21@2.jpg 2x
+                  "
+                  src="./images/mobile/portfolio/row21.jpg"
+                  alt="team member"
+                  width="288"
+                  height="280"
+                />
+                <img
+                  class="tablet"
+                  srcset="
+                    ./images/tablet/portfolio/row21.jpg   1x,
+                    ./images/tablet/portfolio/row21@2.jpg 2x
+                  "
+                  src="./images/tablet/portfolio/row21.jpg"
+                  alt="team member"
+                  width="356"
+                  height="300"
+                />
+                <img
+                  class="desktop"
+                  srcset="
+                    ./images/desktop/portfolio/row21.jpg   1x,
+                    ./images/desktop/portfolio/row21@2.jpg 2x
+                  "
+                  src="./images/desktop/portfolio/row21.jpg"
+                  alt="Banking App"
                   width="360"
                   height="300"
                 />
@@ -404,8 +701,35 @@
             <li class="item-portfolio item-portfolio-hover">
               <div class="item-portfolio-two">
                 <img
-                  src="./images/portfolio/row22.jpg"
-                  alt="Screen Illustrations"
+                  class="mobile"
+                  srcset="
+                    ./images/mobile/portfolio/row22.jpg   1x,
+                    ./images/mobile/portfolio/row22@2.jpg 2x
+                  "
+                  src="./images/mobile/portfolio/row22.jpg"
+                  alt="team member"
+                  width="288"
+                  height="280"
+                />
+                <img
+                  class="tablet"
+                  srcset="
+                    ./images/tablet/portfolio/row22.jpg   1x,
+                    ./images/tablet/portfolio/row22@2.jpg 2x
+                  "
+                  src="./images/tablet/portfolio/row22.jpg"
+                  alt="team member"
+                  width="356"
+                  height="300"
+                />
+                <img
+                  class="desktop"
+                  srcset="
+                    ./images/desktop/portfolio/row22.jpg   1x,
+                    ./images/desktop/portfolio/row22@2.jpg 2x
+                  "
+                  src="./images/desktop/portfolio/row22.jpg"
+                  alt="Banking App"
                   width="360"
                   height="300"
                 />
@@ -424,8 +748,35 @@
             <li class="item-portfolio item-portfolio-hover">
               <div class="item-portfolio-two">
                 <img
-                  src="./images/portfolio/row23.jpg"
-                  alt="Online Courses"
+                  class="mobile"
+                  srcset="
+                    ./images/mobile/portfolio/row23.jpg   1x,
+                    ./images/mobile/portfolio/row23@2.jpg 2x
+                  "
+                  src="./images/mobile/portfolio/row23.jpg"
+                  alt="team member"
+                  width="288"
+                  height="280"
+                />
+                <img
+                  class="tablet"
+                  srcset="
+                    ./images/tablet/portfolio/row23.jpg   1x,
+                    ./images/tablet/portfolio/row23@2.jpg 2x
+                  "
+                  src="./images/tablet/portfolio/row23.jpg"
+                  alt="team member"
+                  width="356"
+                  height="300"
+                />
+                <img
+                  class="desktop"
+                  srcset="
+                    ./images/desktop/portfolio/row23.jpg   1x,
+                    ./images/desktop/portfolio/row23@2.jpg 2x
+                  "
+                  src="./images/desktop/portfolio/row23.jpg"
+                  alt="Banking App"
                   width="360"
                   height="300"
                 />
@@ -493,6 +844,7 @@
             </li>
           </ul>
         </div>
+
         <div class="container-form-subscribe">
           <p class="title-form-subscribe">Subscribe</p>
           <form class="form-subscribe">
