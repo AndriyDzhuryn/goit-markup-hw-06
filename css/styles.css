@@ -115,6 +115,13 @@ img {
   color: #2e2f42;
 }
 
+.mobile-menu {
+  border: none;
+  background: transparent;
+  padding: 0;
+  height: 24px;
+}
+
 .page-menu {
   position: fixed;
   top: 0;
@@ -572,6 +579,10 @@ img {
   .benefits-item {
     width: calc((100% - 24px) / 2);
   }
+
+  .title-item {
+    text-align: left;
+  }
 }
 
 /* ======================================== BENEFITS 1158px ========== */
@@ -609,7 +620,6 @@ img {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    text-align: left;
   }
 
   .description-benefits {
@@ -1010,6 +1020,7 @@ img {
     align-items: flex-start;
     column-gap: 24px;
     row-gap: 72px;
+    padding-left: 108px;
   }
 
   .logotype-footer {
@@ -1046,6 +1057,7 @@ img {
     flex-wrap: nowrap;
     align-items: baseline;
     gap: 0;
+    padding-left: 15px;
   }
 
   .footer-container-logo {
